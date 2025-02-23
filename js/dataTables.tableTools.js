@@ -1152,7 +1152,7 @@ TableTools.prototype = {
 		}
 
 		/* Buttons */
-		this._fnButtonDefinations( this.s.buttonSet, this.dom.container );
+		this._fnButtonDefinitions( this.s.buttonSet, this.dom.container );
 
 		/* Destructor */
 		this.s.dt.aoDestroyCallback.push( {
@@ -1235,13 +1235,13 @@ TableTools.prototype = {
 	/**
 	 * Take the user input arrays and expand them to be fully defined, and then add them to a given
 	 * DOM element
-	 *  @method  _fnButtonDefinations
+	 *  @method  _fnButtonDefinitions
 	 *  @param {array} buttonSet Set of user defined buttons
 	 *  @param {node} wrapper Node to add the created buttons to
 	 *  @returns void
 	 *  @private 
 	 */
-	"_fnButtonDefinations": function ( buttonSet, wrapper )
+	"_fnButtonDefinitions": function ( buttonSet, wrapper )
 	{
 		var buttonDef;
 
@@ -1432,7 +1432,7 @@ TableTools.prototype = {
 		oConfig._collection = nHidden;
 		document.body.appendChild( nHidden );
 
-		this._fnButtonDefinations( oConfig.aButtons, nHidden );
+		this._fnButtonDefinitions( oConfig.aButtons, nHidden );
 	},
 
 
