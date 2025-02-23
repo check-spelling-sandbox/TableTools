@@ -723,7 +723,7 @@ TableTools = function( oDT, oOpts )
 	 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
 	/**
-	 * Retreieve the settings object from an instance
+	 * Retrieve the settings object from an instance
 	 *  @method fnSettings
 	 *  @returns {object} TableTools settings object
 	 */
@@ -753,7 +753,7 @@ TableTools.prototype = {
 	 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
 	/**
-	 * Retreieve the settings object from an instance
+	 * Retrieve the settings object from an instance
 	 *  @returns {array} List of TR nodes which are currently selected
 	 *  @param {boolean} [filtered=false] Get only selected rows which are  
 	 *    available given the filtering applied to the table. By default
