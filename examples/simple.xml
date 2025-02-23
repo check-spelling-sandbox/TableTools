@@ -16,7 +16,7 @@ $(document).ready(function() {
 
 <info><![CDATA[
 
-This example shows the basic initialisation of TableTools by simply including the `dt-string T` option in DataTables' `dt-init dom` parameter. This tell DataTables to insert the TableTools toolbar in that location. Remember to include the Javascript and CSS source files as well!
+This example shows the basic initialisation of TableTools by simply including the `dt-string T` option in DataTables' `dt-init dom` parameter. This tell DataTables to insert the TableTools toolbar in that location. Remember to include the JavaScript and CSS source files as well!
 
 It is worth noting that you might need to [set the `sSwfPath` parameter](swf_path.html) to tell TableTools where to find the SWF file for copy and file save.
 
